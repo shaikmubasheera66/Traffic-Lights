@@ -1,0 +1,114 @@
+.div1{
+    border: 3px solid black;
+    width: 100%;
+    height: 930px;
+    background-color:honeydew;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    font-style: italic;
+    border:gray double 5px;
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(121, 226, 191, 0.671);
+    text-transform: uppercase;
+    font-size: x-large;
+    position: absolute;
+    margin-left: 42.5%;
+    margin-top: 3%;
+}
+.black{
+    background-color: black;
+    border: white double 5px;
+    height: 700px;
+    width: 260px;
+    transition: all 2s ease-in;
+    animation: blacky 2s ease-in 0s infinite normal;
+}
+@keyframes blacky{
+    from{left: 0px}
+    to{left: 100px;}
+}
+#mybl:hover{
+    background-color: rgba(0, 0, 0, 0.383);
+    transform: rotate(360deg);
+}
+.red{
+    background-color: red;
+    border: white dashed 3px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: ivory;
+    font-size: 30px;
+    text-align: center;
+    animation-name: reddish;
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes reddish{
+    from{background-color: green;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;}
+    to{background-color: red;
+        font-family:  "Sofia", sans-serif;
+        font-size: 50px;}
+ }
+ .yellow{
+    background-color: yellow;
+    border: rgb(237, 172, 53) dashed 3px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: ivory;
+    font-size: 30px;
+    text-align: center;
+    animation-name: yellowish;
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes yellowish {
+    from{background-color: red;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;}
+    to{background-color: yellow;
+        font-family:  "Sofia", sans-serif;
+        font-size: 50px;}
+}
+.green{
+    background-color: lightgreen;
+    border: white dashed 3px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: ivory;
+    font-size: 30px;
+    text-align: center;
+    animation-name: greenish;
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes greenish {
+    from{background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    }
+    to{background-color: green;
+    font-family:  "Sofia", sans-serif;
+    font-size: 50px;}
+}
